@@ -12,7 +12,7 @@ function installAll() {
   echo "$(tput setaf 6)Cloning the latest sniper code..."
   cd ..
   rm -rf nitro-sniper &> /dev/null
-  git clone https://github.com/slow/nitro-sniper nitro-sniper &> /dev/null
+  git clone https://github.com/slow-fork/nitro-sniper nitro-sniper &> /dev/null
   cd nitro-sniper
   echo "$(tput setaf 2)Cloned latest version of the sniper."
   echo "$(tput setaf 6)Installing sniper dependencies..."
